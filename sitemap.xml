@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/usage/dependencies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/usage/getting_started/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/usage/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://danrosher.github.io/MonSolr-site/usage/</loc>
+  </url>
+  
+</urlset>

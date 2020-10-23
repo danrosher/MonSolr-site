@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usage on MonSolr</title>
+    <link>http://danrosher.github.io/MonSolr-site/usage/</link>
+    <description>Recent content in Usage on MonSolr</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://danrosher.github.io/MonSolr-site/usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependencies</title>
+      <link>http://danrosher.github.io/MonSolr-site/usage/dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danrosher.github.io/MonSolr-site/usage/dependencies/</guid>
+      <description>What required to install and run MonSolr
+   Dependencies requirements     Dependencies requirements  For compilation/runtime at least jdk11 mvn MongoDB releases from versions 2.6 to 4.2 [and &amp;gt;= 3.6 for changestreams] Solr &amp;gt;= 7.x application built with solrj maven 8.6.2  </description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://danrosher.github.io/MonSolr-site/usage/getting_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danrosher.github.io/MonSolr-site/usage/getting_started/</guid>
+      <description>This page tells you how to get started with MonSolr
+ Installation Usage Configuration   Installation  git clone https://github.com/danrosher/MonSolr.git cd MonSolr mvn install ## then scp jar if required # scp target/MonSolr-1.0-SNAPSHOT-jar-with-dependencies.jar &amp;lt;host&amp;gt; Usage # Run with : java -Dlog4j.configuration=file:///log4j.properties -Dconfig=/path/to/config.toml -jar MonSolr-1.0-SNAPSHOT-jar-with-dependencies.jar Configuration List of config options. Optional ones commented out showing defaults.
+Config requires one of mongo-pipeline, or a [[changestream.*]] . mongo-pipeline to do anything useful</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>http://danrosher.github.io/MonSolr-site/usage/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danrosher.github.io/MonSolr-site/usage/configuration/</guid>
+      <description>What required to install and run MonSolr
+   mongo-url mongo-db mongo-collection solr-collection  solr-unique-key solr-url solr-writer-batch mongo-start-epoch* mongo-batchsize mongo-pipeline sync-collection* solr-num-writers solr-writer-delay* app-queue-size app-tracker-delay-secs* app-progress-delay-secs   ChangeStream config options  name mongo-pipeline     mongo-url Connection string for mongo e.g. mongodb://master,slave1,slave2
+mongo-db Mongo Database
+mongo-collection Mongo collection
+solr-collection  Solr Collection. This can be static like solr-collection=&amp;quot;my-solr-collection&amp;quot; OR dynamic like solr-collection=&amp;quot;$solr_collection&amp;quot; where we use the mongo field value to pick the solr collection.</description>
+    </item>
+    
+  </channel>
+</rss>
